@@ -1,0 +1,6 @@
+.gallery {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+}

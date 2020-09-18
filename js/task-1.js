@@ -27,23 +27,3 @@ itemEl.forEach(element => {
     Количество элементов: ${categoryEl.length}
     `);
 });
-
-// const showTitleAndElementsQuantity = elements => {
-//   //   const titleAndElements = [];
-//   elements.forEach(element => {
-//     const titleEl = element.querySelector('h2');
-//     const categoryEl = element.querySelectorAll('li');
-
-//     console.log(`
-//     Категория: ${titleEl.textContent}
-//     Количество элементов: ${categoryEl.length}
-//     `);
-//     // titleAndElements.push(`
-//     // Категория: ${titleEl.textContent}
-//     // Количество элементов: ${categoryEl.length}
-//     // `);
-//   });
-//   //   return titleAndElements;
-// };
-
-// console.log(showTitleAndElementsQuantity(itemEl));
