@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Homework JS module-7</h1>
+    <p class="task-title">Homework JS module-7</p>
     <p>by Andrii Kylymnyk</p>
 
     <!-- Task 1 -->
-    <h2>Task 1</h2>
+    <p class="task">Task 1</p>
     <ul id="categories">
       <li class="item">
         <h2>Животные</h2>
@@ -46,25 +46,59 @@
     </ul>
 
     <!-- Task 2 -->
-    <h2>Task 2</h2>
+    <p class="task">Task 2</p>
     <ul id="ingredients"></ul>
 
     <!-- Task 3 -->
-    <h2>Task 3</h2>
+    <p class="task">Task 3</p>
     <ul id="gallery"></ul>
 
     <!-- Task 4 -->
-    <h2>Task 4</h2>
+    <p class="task">Task 4</p>
     <div id="counter">
       <button type="button" data-action="decrement">-1</button>
       <span id="value">0</span>
       <button type="button" data-action="increment">+1</button>
     </div>
 
+    <!-- Task 5 -->
+    <p class="task">Task 5</p>
+    <input type="text" placeholder="Ваше имя?" id="name-input" />
+    <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+
+    <!-- Task 6 -->
+    <p class="task">Task 6</p>
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символов"
+    />
+
+    <!-- Task 7 -->
+    <p class="task">Task 7</p>
+    <input id="font-size-control" type="range" />
+    <br />
+    <span id="text">Абракадабра!</span>
+
+    <!-- Task 8 -->
+    <p class="task">Task 8</p>
+    <div id="controls">
+      <input type="number" min="0" max="100" step="1" />
+      <button type="button" data-action="render">Создать</button>
+      <button type="button" data-action="destroy">Очистить</button>
+    </div>
+
+    <div id="boxes"></div>
+
     <!-- Scripts -->
     <script src="/js/task-1.js" type="module"></script>
     <script src="/js/task-2.js" type="module"></script>
     <script src="/js/task-3.js" type="module"></script>
     <script src="/js/task-4.js" type="module"></script>
+    <script src="/js/task-5.js" type="module"></script>
+    <script src="/js/task-6.js" type="module"></script>
+    <script src="/js/task-7.js" type="module"></script>
+    <script src="/js/task-8.js" type="module"></script>
   </body>
 </html>
