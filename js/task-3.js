@@ -29,7 +29,7 @@ const galleryEl = document.querySelector('#gallery');
 galleryEl.classList.add('gallery');
 
 const makeGalleryMarkup = ({ url, alt }) =>
-  `<li><img src='${url}' alt='${alt}' width='400'/></li>`;
+  `<li><img src='${url}' alt='${alt}' width='300'/></li>`;
 
 const makeGallery = images.map(makeGalleryMarkup).join('');
 
